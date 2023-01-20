@@ -1,0 +1,26 @@
+{
+  "name": "express-typeorm-template",
+  "version": "1.0.0",
+  "description": "This is a template for creating an application express and typeorm.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eteims",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-joi-validation": "^5.0.1",
+    "joi": "^17.7.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.4",
+    "typeorm": "^0.3.11"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
